@@ -1,0 +1,48 @@
+.chart-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.bar-track {
+    height: 20px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.bar-fill {
+    height: 100%;
+    background-color: #1d4ed8;
+    border-radius: 10px;
+}
+
+.bar-labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.value-label {
+    font-weight: 600;
+    color: #dc2626;
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid #dc2626;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.weather-graphs {
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
